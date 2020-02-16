@@ -21,6 +21,6 @@ fun main() {
     println("USER ID  NAME")
     result.forEach { println("${it.userId} \t ${it.name}") }
     Repository.convertToJSONStr(result).writeToFile("output.txt")
-    println("\n The invites list is also written to output.json file")
+    println("\n The invites list is also written to output.txt file")
 
 }
