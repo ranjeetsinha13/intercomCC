@@ -5,3 +5,5 @@ To run this project, clone it from github and run
 
 To run the tests, you can run 
 ```gradlew test```
+
+The output file containing names and user Ids in sorted order in contained in file `output_result.txt` in the root folder
